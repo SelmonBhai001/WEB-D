@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/server">
+    <div>
+        <p> Volume Setting</p>
+        <label for="vol">Volume</label>
+        <input type="range" min="10" max="100" id="vol" name="vol" step="10" value="20">
+    </div> 
+
+    <div>
+        <label for="base">Base</label>
+        <input type="range" min="10" max="100" id="base" name="base" step="10" value="20">
+        <br>
+        <label for="feedback"> Give us Feedback</label>
+        <textarea id="feedback" name="feedback" rows="5" cols="20" placeholder="Write your feedback here"></textarea>
+        <button>Submit</button> 
+    </div> 
+    </form>
+</body>
+</html>
